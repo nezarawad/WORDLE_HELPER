@@ -47,9 +47,9 @@ def t5_words(w_list):
     sorted_numbers = list(sorted_numbers)
     sorted_words = list(sorted_words)
     
-    x = 5
+    x = 10
     
-    if len(w_list) < 5:
+    if len(w_list) < 10:
         x = len(w_list)
 
     for i in range(x):
